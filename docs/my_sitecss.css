@@ -1,7 +1,8 @@
 body {
       background-color: black; 
-      color: #031B3F; 
+      color: white; 
       font-family: Verdana, Arial, Tahoma, Serif; 
       padding:15px; 
-      line-height:1.4em
+      line-height:1.4em;
+    
       }

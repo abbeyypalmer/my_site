@@ -6,3 +6,7 @@ body {
       line-height:1.4em;
     
       }
+      
+img {
+  border-radius: 8px;
+}

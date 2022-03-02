@@ -5,7 +5,29 @@ body {
       padding:15px; 
       line-height:1.4em;
       }
-      
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  text-align: center;
+  padding: 40px;
+  width: auto;
+  background: black;
+  color: white;
+  font-size: 30px;
+}
+
+li a:hover {
+  background-color: #111111;
+}
 img {
   border-radius: 8px;
 }

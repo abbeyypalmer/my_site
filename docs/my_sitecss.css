@@ -5,27 +5,52 @@ body {
       padding:15px; 
       line-height:1.4em;
       }
-.center {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-  text-align: center;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.header {
-  text-align: center;
-  padding: 40px;
-  width: auto;
-  background: black;
-  color: white;
-  font-size: 30px;
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
-li a:hover {
+header {
+    background: #2E2F2F;   
+}
+
+header:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+    
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 35px;
+}
+
+nav a { 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+nav a:hover {
+
+}
+
+hover {
   background-color: #111111;
 }
 img {

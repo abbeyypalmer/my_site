@@ -78,11 +78,11 @@ hover {
 img {
   border-radius: 8px;
 }
-/*/\* unvisited link *\/
+/* unvisited link */
 a:link {
-  color: #869C81;
-}*/
-/* visited link */
+  color: white;
+}
+ visited link 
 a:visited {
   color: #DFE0DF;
 }

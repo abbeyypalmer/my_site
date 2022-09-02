@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--ul=underline, ln=line, local=location, vis=visualElements, rep=repeated-->
+<root>
+    <vis t="typewritter">
+        <header>
+            <title>
+                <ul>
+                    <ln>BALLAD OF BOOKER T.</ln>
+                </ul>
+            </title>
+            <author>
+                <ln>by</ln>
+                <ln>Langston Hughes</ln>
+            </author>
+        </header>
+
+        <ln>
+            <name>Booker T.</name>
+        </ln>
+        <ln>Was a <rep p="beg">practical man.</rep></ln>
+        <ln>He said, Till the soil</ln>
+        <ln>And learn from the land.</ln>
+        <ln>
+            <rep p="beg">Let down your bucket</rep>
+        </ln>
+        <ln>
+            <rep p="beg">Where you are.</rep>
+        </ln>
+        <ln>
+            <rep p="beg">Your fate is here</rep>
+        </ln>
+        <ln>
+            <rep p="beg">And not afar.</rep>
+        </ln>
+        <ln>To help yourself</ln>
+        <ln>And your fellow man,</ln>
+        <ln>
+            <rep p="beg">Train your head,</rep>
+        </ln>
+        <ln>
+            <rep p="beg">Your heart,</rep>
+            <rep p="beg">
+                <ul>and your hand.</ul>
+            </rep>
+        </ln>
+        <ln>For smartness alone's</ln>
+        <ln>Surely not meet—</ln>
+        <ln>If you haven't at the same time</ln>
+        <ln>Got something to eat.</ln>
+        <ln>Thus at <city s="alabama">Tuskegee</city></ln>
+        <ln>He built a school</ln>
+        <ln>With book-learning there</ln>
+        <ln>And the workman's tool.</ln>
+        <ln>He started out</ln>
+        <ln>In a simple way—</ln>
+        <ln>For yesterday</ln>
+        <ln>Was <ul>not</ul> today.</ln>
+        <ln>Sometimes he had</ln>
+        <ln>Compromise in his talk—</ln>
+        <ln>For a man must crawl</ln>
+        <ln>Before he can walk—</ln>
+        <ln>And in <state>Alabama</state> in <date>'85</date></ln>
+        <ln>A joker was lucky</ln>
+        <ln>To be alive.</ln>
+        <ln>But <name>Booker T.</name></ln>
+        <ln>Was nobody's fool:</ln>
+        <ln>You may carve a dream</ln>
+        <ln>With an humble tool.</ln>
+        <ln>The tallest tower</ln>
+        <ln>Can tumble down</ln>
+        <ln>If it be not rooted</ln>
+        <ln>In solid ground.</ln>
+        <ln>So, being a far-seeing</ln>
+        <ln>
+            <rep p="end">Practical man,</rep>
+        </ln>
+        <ln>He said, <rep p="end">Train your head,</rep></ln>
+        <ln>
+            <rep p="end">Your heart,</rep>
+            <rep p="end">
+                <ul>and your hand.</ul>
+            </rep>
+        </ln>
+        <ln>
+            <rep p="end">Your fate is here</rep>
+        </ln>
+        <ln>
+            <rep p="end">And not afar,</rep>
+        </ln>
+        <ln>So <rep p="end">let down your bucket</rep></ln>
+        <ln>
+            <rep p="end">Where you are.</rep>
+        </ln>
+
+        <footer>
+            <docType>Final Draft,</docType>
+            <local>Hollow Hills Farm, Monterey, California,</local>
+            <date>June 1, 1941.</date>
+        </footer>
+    </vis>
+    <vis t="stamp" shape="circular">
+        <text t="circular">The library of Congress</text>
+        <img>stylized government eage</img>
+        <local>end of lines 5-10</local>
+    </vis>
+    <vis t="signature">
+        <type>handwritten</type>
+        <text>Langston Hughes</text>
+        <local>over footer text</local>
+    </vis>
+</root>

@@ -4,11 +4,11 @@ letter = element letter {header+, body+,footer+}
     header = element header {text}
     body = element body {para+}
     footer = element footer {text}
-        para = element para {mixed { (setting* | country* | risk* | city* | peace*) }, text }
-        setting = element setting {text}
-        country = element country {c+, text}
-        risk = element risk {text}
-        city = element city {c+, text}
-        peace = element peace {text}
+        para = element para {mixed { (setting | country | risk | city | peace)* }, text }
+        setting = element setting {mixed { (setting | country | risk | city | peace)* }, text }
+        country = element country {c*,mixed { (setting | country | risk | city | peace)* }, text }
+        risk = element risk {mixed { (setting | country | risk | city | peace)* }, text }
+        city = element city {c*,mixed { (setting | country | risk | city | peace)* }, text }
+        peace = element peace {mixed { (setting | country | risk | city | peace)* }, text }
             c = attribute c {"europe" | "u.s."}
 

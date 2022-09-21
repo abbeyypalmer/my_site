@@ -1,0 +1,14 @@
+start = root
+root = element root {letter+}
+letter = element letter {header+, body+,footer+}
+    header = element header {text}
+    body = element body {para+}
+    footer = element footer {text}
+        para = element para {mixed { (setting* | country* | risk* | city* | peace*) }, text }
+        setting = element setting {text}
+        country = element country {c+, text}
+        risk = element risk {text}
+        city = element city {c+, text}
+        peace = element peace {text}
+            c = attribute c {"europe" | "u.s."}
+

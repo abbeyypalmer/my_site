@@ -1,0 +1,18 @@
+start = song
+song = element song { mixed{(artist | title | verse | bridge | interlude | chorus | outro)}* }
+    artist = element artist {text}
+    title = element title {text}
+    verse = element verse {L+, text}
+    bridge = element bridge {L+, text}
+    interlude = element interlude {L+, text}
+    chorus = element chorus {L+, text}
+    outro  = element outro {L+, text}
+        L = element L {mixed{(love | narrator | bard | timePeriod)}*, n, text}
+        n = attribute n {xsd:integer}
+        love = element love {text}
+        narrator = element narrator {text}
+        bard = element bard {text}
+        timePeriod = element timePeriod {text}
+       
+
+        

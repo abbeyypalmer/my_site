@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-model href="schema4song.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <artist> The Lumineers </artist>
+    <title> Flapper Girl</title>
+    <verse>
+        <L n="1"><timePeriod>Cut off all of your hair</timePeriod></L>
+        <L n="2"><love>Did you flinch, did you care</love></L>
+        <L n="3"> Did he look, did he stop and stare</L>
+        <L n="4">
+            <love>At your brand new hair</love></L>
+        <L n="5"><timePeriod>Local boy, local news</timePeriod></L>
+        <L n="6">Power lines hanging boots</L>
+        <L n="7">Firemen in their trucks cut loose</L>
+        <L n="8">A local boy's shoes</L>
+        <L n="9">Cadillac, Cadillac</L>
+        <L n="10"><narrator>Businessmen dressed in slacks</narrator></L>
+        <L n="11"><narrator>I'm 'a buy one for us when I get back</narrator></L>
+        <L n="12">A big Cadillac</L>
+    </verse>
+    <bridge>
+        <L n="13">
+            <love>And you can wave to all of your friends</love></L>
+        <L n="14"><narrator>And I'll never leave you again</narrator></L>
+    </bridge>
+    <chorus>
+        <L n="15"><love>Would you write, would you call back, baby</love></L>
+        <L n="16"><narrator>If I wrote you a song</narrator></L>
+        <L n="17"><narrator>I been gone but you're still my lady</narrator></L>
+        <L n="18"><narrator>And I need you at home</narrator></L>
+    </chorus>
+    <verse>
+        <L n="19">
+            <bard>Romeo, Juliet</bard></L>
+        <L n="20"><bard>Balcony, silhouette</bard></L>
+        <L n="21">
+            <love>Making Os with her cigarette</love></L>
+        <L n="22"><bard>It's Juliet</bard></L>
+        <L n="23"><timePeriod>Flapper girl, flapper gir</timePeriod>l</L>
+        <L n="24"><timePeriod>Prohibition in curls</timePeriod></L>
+        <L n="25"><timePeriod>Hair of gold and a neck of pearls</timePeriod></L>
+        <L n="26"><timePeriod>It's flapper girl</timePeriod></L>
+    </verse>
+    <bridge>
+        <L n="27"><love>And you can wave to all of your friends</love></L>
+        <L n="28"><narrator>And I'll never leave you again</narrator></L>
+    </bridge>
+    <chorus>
+        <L n="29"><love>Would you write, would you call back, baby</love></L>
+        <L n="30"><narrator>If I wrote you a song</narrator></L>
+        <L n="31"><narrator>I been gone but you're still my lady</narrator></L>
+        <L n="32">
+            <narrator>And I need you at home</narrator></L>
+    </chorus>
+    <interlude>
+        <L n="33"><love>'Cause if you ain't behind my door</love></L>
+        <L n="34"><narrator>Then I ain't got a home anymore</narrator></L>
+    </interlude>
+    <chorus>
+        <L n="35"><love>Would you write, would you call back, baby</love></L>
+        <L n="36"><narrator>If I wrote you a song</narrator></L>
+        <L n="37"><narrator>I been gone but you're still my lady</narrator></L>
+        <L n="38"><narrator>And I need you at home</narrator></L>
+    </chorus>
+    <outro>
+        <L n="39">Lovers come, lovers go</L>
+        <L n="40">Lovers leave me alone</L>
+        <L n="41"><love>She'll come back to me</love>
+        </L>
+    </outro>
+</song>
